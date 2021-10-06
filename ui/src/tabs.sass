@@ -1,0 +1,22 @@
+.common-tabs
+    display: flex
+    border-bottom: 1px solid black
+    padding: 0 20pt
+    gap: 10pt
+.common-tab
+    height: 20pt
+    padding: 0 5pt
+    border: 1px solid rgba(0,0,0,0.2)
+    border-bottom: none
+    margin-top: 8pt
+    background-color: hsla(208, 90%, 70%, 1)
+    cursor: pointer
+    border-radius: 4pt 4pt 0 0
+    cursor: pointer
+    &:hover
+        background-color: hsla(208, 90%, 60%, 1)
+.common-tab-active
+    cursor: default
+    background-color: hsla(208, 50%, 60%, 1)
+    &:hover
+        background-color: hsla(208, 50%, 60%, 1)

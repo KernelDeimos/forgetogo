@@ -1,0 +1,35 @@
+label
+    height: 20pt
+    line-height: 20pt
+
+input[type=text], input[type=number]
+    height: 20pt
+    padding: 0 5pt
+    border: 1px solid rgba(0,0,0,0.2)
+    border-radius: 4pt
+
+input[type=checkbox]
+    margin: 0
+    height: 20pt
+    width: 15pt
+
+input[type=button], input[type=submit], button
+    height: 20pt
+    border: 1px solid rgba(0,0,0,0.2)
+    border-radius: 4pt
+
+input[type=button], button
+    background-color: hsla(0, 0%, 93%, 1)
+    cursor: pointer
+    &:hover
+        background-color: hsla(0, 0%, 73%, 1)
+
+
+input[type=submit], button[type=submit], .btn-primary
+    background-color: hsla(208, 90%, 70%, 1)
+    cursor: pointer
+    &:hover
+        background-color: hsla(208, 90%, 60%, 1)
+    &:disabled
+        cursor: default
+        background-color: hsla(208, 50%, 60%, 1)

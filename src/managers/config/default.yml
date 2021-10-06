@@ -1,0 +1,9 @@
+launch_configs: []
+# - profile: java-jar
+#   uuid: 682e5306-94f3-4ec4-aba2-6e3db67e6def
+#   values:
+#     enableG1GC: true
+#     heapMax: 5
+#     heapMin: 5
+#     jarFile: test.jar
+#     name: Test Server

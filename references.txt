@@ -1,0 +1,5 @@
+for better or worse, I learned how to do the embedded fs with gin
+using Github issues as a reference:
+
+https://github.com/golang/go/issues/43431
+https://github.com/gin-contrib/static/issues/19

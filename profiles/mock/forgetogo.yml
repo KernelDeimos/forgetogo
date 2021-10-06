@@ -1,0 +1,7 @@
+instances: [
+  {
+    name: 'Fake Server',
+    java: './fakeserver',
+    autostart: true
+  }
+]
